@@ -1074,10 +1074,10 @@
     
     category: {
       basics: {
-        "": "Getting Started",
-        desc: "The practitioners of this art would cast their so-called _Hexes by drawing strange patterns in the air with a $(l:items/staff)$(item)Staff/$ -- \
-          or craft $(l:items/hexcasting)$(item)powerful magical items/$ to do the casting for them. \
-          How might I do the same?",
+        "": "はじめに",
+        desc: "この技術の使い手は、$(l:items/staff)$(item)杖/$で空中に奇妙な模様を描くことで、_Hexを唱えた。 -- \
+          あるいは、クラフトされた$(l:items/hexcasting)$(item)強力な魔法のアイテム/$が彼らの代わりに唱えるのである。 \
+          どうすれば同じことができるだろうか?",
       },
       casting: {
         "": "Hex Casting",
