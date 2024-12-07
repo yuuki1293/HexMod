@@ -1232,16 +1232,16 @@
     
     page: {
       creative_unlocker: {
-        "1": "The $(#74b3f2)Media Cube/$ is a near-limitless source of power, acting as an infinite source of _media for whatever _Hexes I wish to cast. It also looks quite tasty. Eating it might perhaps reveal more about the world, possibly delving into spoiler territory...",
-        "2": "Additionally, it seems that by renaming a $(#74b3f2)Media Cube/$ at an Anvil, I should be able to utilize it to test and understand more about my _Hexes. If I have somehow acquired Creative power over the world, I might wish to turn that off before attempting any of the following.",
-        "3": "By renaming the $(#74b3f2)Media Cube/$ to 'debug media', I will be given feedback in the chat window about the amount of media consumed.",
+        "1": "$(#74b3f2)メディアキューブ/$は無限に近い力の源であり、どんな_Hexesに対しても無限のメディアとして機能する。 とても美味しそうだ。食べると世界のことがもっと分かるかもしれない...",
+        "2": "さらに、金床で$(#74b3f2)Media Cube/$の名前を変更することで、自分の_Hexesをテストして理解が深まるようだ。もし私が世界を支配するクリエイティブな力を手に入れたのであれば、以下のことを試す前にそれをオフにしたいかもしれない。",
+        "3": "$(#74b3f2)Media Cube/$の名前を'debug media'に変更することで、消費されたメディアの量がチャットウィンドウに表示される。",
         // NOTE: The following feature documented is broken in the current implementation. It should be uncommented and the page in patchouli should be updated when the feature is fixed.
         //"4": "By renaming the $(#74b3f2)Media Cube/$ to 'debug patterns', I will be given feedback in the chat window about the order patterns are ran."
       },
       media: {
-        "1": "_Media is a form of mental energy external to a mind. All living creatures generate trace amounts of _media when thinking about anything; after the thought is finished, the media is released into the environment.$(br2)The art of casting _Hexes is all about manipulating _media to do your bidding.",
-        "2": "_Media can exert influences on other media-- the strength and type of influence can be manipulated by drawing _media out into patterns.$(p)Scholars of the art used a concentrated blob of _media on the end of a stick: by waving it in the air in precise configurations, they were able to manipulate enough _media with enough precision to influence the world itself, in the form of a _Hex.",
-        "3": "Sadly, even a fully sentient being (like myself, presumably) can only generate miniscule amounts of _media. It would be quite impractical to try and use my own brainpower to cast Hexes.$(br2)But legend has it that there are underground deposits where _media slowly accumulates, growing into crystalline forms.$(p)If I could just find one of those...",
+        "1": "$(media)メディア/$とは、心の外部にある精神エネルギーの一形態である。すべての生き物は、何かを考えるときに微量の$(media)メディア/$を生成する。思考が終わると、$(media)メディア/$は環境に放出される。$(br2)_Hexを唱えるとは、$(media)メディア/$を意のままに操ることだ。",
+        "2": "$(media)メディア/$は他のメディアに影響を及ぼすことができる。その影響の強さと種類は、メディアをパターンに描き出すことで操作できる。$(p)研究者たちは、棒の先についた凝縮された$(media)メディア/$の塊を使った。それを正確に空中に振ることで、彼らは世界そのものに影響を与えるのに十分な量のメディアを、「_Hex」という形で正確に操作することができた。",
+        "3": "残念ながら、私のような完全な感覚を持つ存在でさえごく少量の$(media)メディア/$しか生成できない。したがって、私自身の頭脳の力を使って_Hexを唱えることはかなり非現実的だろう。$(br2)しかし伝説によると、地下には$(media)メディア/$がゆっくりと蓄積され、結晶へと成長する鉱床があるという。",
       },
       
       geodes: {
