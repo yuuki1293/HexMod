@@ -21,7 +21,7 @@
     },
     
     amethyst_dust: "アメジストの粉",
-    charged_amethyst: "チャージ済みアメジスト",
+    charged_amethyst: "チャージアメジスト",
     quenched_allay_shard: "焼霊晶のかけら",
     
     scroll_small: {
@@ -1246,14 +1246,14 @@
       
       geodes: {
         "1": "地下深くで採掘していたとき、エネルギーと共鳴する巨大なジオードを発見した。―― そのエネルギーは私の頭蓋骨と思考を圧迫した。そして今、その圧力を固体として手に持っている。それが証拠だ。ここは伝説で語られている、メディアが蓄積する場所のようだ。$(br2)この$(l:items/amethyst)$(item)アメジストの結晶/$は、$(l:items/amethyst)$(thing)$(media)メディア/$の便利な固形化した形に違いない。/$.",
-        "2": "過去に見た$(l:items/amethyst)$(item)アメジストの欠片/$の他に、$(l:items/amethyst)$(item)アメジストの粉/$や$(l:items/amethyst)$(item)チャージ済みアメジスト/$のようなものもドロップするようだ。$(l:items/amethyst)$(item)チャージ済みアメジスト/$を見つけるには、幸運のツルハシを使ったほうが良さそうだ。",
+        "2": "過去に見た$(l:items/amethyst)$(item)アメジストの欠片/$の他に、$(l:items/amethyst)$(item)アメジストの粉/$や$(l:items/amethyst)$(item)チャージアメジスト/$のようなものもドロップするようだ。$(l:items/amethyst)$(item)チャージアメジスト/$を見つけるには、幸運のツルハシを使ったほうが良さそうだ。",
         "3": "結晶の美しさを取り込むにつれ、心の中で次々と閃きが生まれていくのを感じる。まるで空気中の$(media)メディア/$が私の中に入り込み、力を与え、啓発してくれているようだ... なんて素晴らしい感覚だろう。$(br2)やっと、難解なものを研究してきた意味がわかってきた！$(p)古い伝説をもう一度読み返してみよう。今なら、自分が何を見ているのかが理解できる。",
       },
       
       couldnt_cast: {
         "1": "なぜスペルを唱えられないんだ！$(br2)私が見つけたスクロールは正しいはずだ。スクロールの中で鼓動を$(italic)感じる/$―― このパターンは本物だ。これ以上確かなものはないくらいに。スペルは$(italic)すぐそこにある/$。$(p)しかし、何か薄い膜の向こう側にあるように感じられる。私はそれを呼び出した――それは形を成そうとした――だが、$(italic)どうしてもできなかった/$。",
         "2": "私がスペルに力を注ぎ込んだことで、障壁がわずかに弱まったように感じられた。しかし、どれだけ努力しても――最大限の集中、最高級のアメジスト、そして最も正確な図面をもってしても――それは$(italic)決して/$障壁を越えようとしない。苛立たしい、狂おしいほどに。$(p)私の研究は$(italic)ここ/$で行き止まりなのか？無力さに呪われ、正当な力を失う運命なのか？$(br2)ちょっと深呼吸しよう。たとえ多くは得られなかったとしても、学んだことを黙想してみるべきだ...",
-        "3": "...慎重に熟考した末に...自分自身の中に変化があることに気づいた。$(p)どうやら、$(l:items/amethyst)$(item)アメジスト/$の代わりに自分の精神と生命エネルギーを使ってスペルを唱える能力を解放したようだ――まさに古の伝説に記されていた通りに。$(p)なぜ今になってできるようになったのかは分からない...ただ、”真実”、”知識”、”重荷”は常にそこにあり、それが見えるようになった。それを理解した。それを背負ったのだ。$(br2)幸いなことに、自分の限界も見える――自分の体力が最良なら、およそ2つの$(l:items/amethyst)$(item)チャージ済みアメジスト/$相当の$(media)メディア/$を引き出せるくらいだ。",
+        "3": "...慎重に熟考した末に...自分自身の中に変化があることに気づいた。$(p)どうやら、$(l:items/amethyst)$(item)アメジスト/$の代わりに自分の精神と生命エネルギーを使ってスペルを唱える能力を解放したようだ――まさに古の伝説に記されていた通りに。$(p)なぜ今になってできるようになったのかは分からない...ただ、”真実”、”知識”、”重荷”は常にそこにあり、それが見えるようになった。それを理解した。それを背負ったのだ。$(br2)幸いなことに、自分の限界も見える――自分の体力が最良なら、およそ2つの$(l:items/amethyst)$(item)チャージアメジスト/$相当の$(media)メディア/$を引き出せるくらいだ。",
         "4": "それを考えただけでも体が震える――研究の中で、これまで何とか心を保ち続けてきた。それでも、事実はこうだ――私は、かろうじて保たれたつながりの一端を形作っているのだ。$(p)私のつながりは、別の側面と結びついている――その境界はあの衝撃で薄れた。その場所では、単純な行動が永遠の栄光を意味する。$(p)自分のためにそれを望むことは、そんなに間違っているだろうか？",
       },
       
@@ -1301,16 +1301,16 @@
           "1": "自然言語における”名詞”は$(thing)イオタ/$と呼ばれます。 \
             Hexcastingの最も基本的なレベルは、イオタを操作する魔術です。$(br2)\
             イオタにはさまざまな種類があります：\
-              $(li)数字（いくつかの伝説では、”double”と呼ばれることもあります）。\
-              $(li)ベクトル。位置、移動または方向を表す3つの数字の集合。\
-              $(li)ブール値。略して”bool”。抽象的なTrueとFalseを表す。\
-              $(li)エンティティ。プレイヤーやニワトリ、トロッコのようなもの。",
+              $(li)数値/Number（いくつかの伝説では、”double”と呼ばれることもあります）。\
+              $(li)ベクトル/Vector。位置、移動または方向を表す3つの数値の集合。\
+              $(li)ブール値/Boolean。略して”bool”。抽象的なTrueとFalseを表す。\
+              $(li)エンティティ/Entity。プレイヤーやニワトリ、トロッコのようなもの。",
           "2": "$(li)影響、抽象的なアイデアを表すような特異な種類のイオタ。\
               $(li)パターン自体、魔法のアイテムを作成したり、他のスペルを発動するような本当に驚異的な技を作り出すために衣装されます。\
               $(li)上記のいくつかをまとめたリスト、1つのイオタに集めたもの。",
           "3": "一般的に、私はアクションにイオタを提供します。 \
             例えば、$(l:patterns/spells/basic#hexcasting:explode)$(action)エクスプロージョン/$。 \
-            このスペルは、強さを示すための数字のイオタと、位置を示すためのベクトルのイオタを必要とします。$(br2)\
+            このスペルは、強さを示すための数値のイオタと、位置を示すためのベクトルのイオタを必要とします。$(br2)\
             または、$(l:patterns/basic#hexcasting:get_pos)$(action)コンパスピュリフィケーション/$。 \
             これはエンティティのイオタを受け取り、それをベクトルのイオタに変換して、そのエンティティの位置を表します。",
         },
@@ -1318,23 +1318,23 @@
       
       // Casting
       "101": {
-        "1": "Casting a _Hex is quite difficult―― no wonder this art was lost to time! I'll have to re-read my notes carefully.$(br2)I can start a _Hex by pressing $(k:use) with a $(l:items/staff)$(item)Staff/$ in my hand―― this will cause a hexagonal grid of dots to appear in front of me. Then I can click and drag from dot to dot to draw patterns in the $(media)メディア/$ of the grid; finishing a pattern will run its corresponding action (more on that later).",
-        "2": "Once I've drawn enough patterns to cast a spell, the grid will disappear as the $(media)メディア/$ I've stored up is released. Holding $(k:sneak) while using my $(l:items/staff)$(item)staff/$ will also clear the grid.$(br2)So how do patterns work? In short:$(li)$(italic)Patterns/$ will execute...$(li)$(italic)Actions/$, which manipulate...$(li)$(l:casting/stack)$(italic)The Stack/$, which is a list of...$(li)$(italic)Iotas/$, which are simply units of information.",
-        "3": "First, $(thing)patterns/$. These are essential―― they're what I use to manipulate the $(media)メディア/$ around me. Certain patterns, when drawn, will cause $(thing)actions/$ to happen. Actions are what actually $(italic)do/$ the magic; all patterns influence $(media)メディア/$ in particular ways, and when those influences end up doing something useful, we call it an action.$(br2)$(media)メディア/$ can be fickle: if I draw an invalid pattern, I'll get some $(l:casting/influences)$(action)garbage/$ result somewhere on my stack (read on...)",
-        "4.header": "An Example",
-        "4": "It's interesting to note that the $(italic)rotation/$ of a pattern doesn't seem to matter at all. These two patterns both perform an action called $(l:patterns/basics#hexcasting:get_caster)$(action)Mind's Reflection/$, for example.",
-        "5": "A _Hex is cast by drawing (valid) actions in sequence. Each action might do one of a few things:$(li)Gather some information about the environment, leaving it on the top of the stack;$(li)manipulate the info gathered (e.g. adding two numbers); or$(li)perform some magical effect, like summoning lightning or an explosion. (These actions are called \"spells.\")$(p)When I start casting a _Hex, it creates an empty stack. Actions manipulate the top of that stack.",
-        "6": "For example, $(l:patterns/basics#hexcasting:get_caster)$(action)Mind's Reflection/$ will create an iota representing $(italic)me/$, the caster, and add it to the top of the stack. $(l:patterns/basics#hexcasting:entity_pos/eye)$(action)Compass Purification/$ will take the iota at the top the stack, if it represents an entity, and transform it into an iota representing that entity's location.$(br2)So, drawing those patterns in that order would result in an iota on the stack representing my position.",
-        "7": "$(thing)Iotas/$ can represent things like myself or my position, but there are several other types I can manipulate with $(thing)Actions/$. Here's a comprehensive list:$(li)Numbers (which some legends called \"doubles\");$(li)Vectors, a collection of three numbers representing a position, movement, or direction in the world;$(li)Booleans or \"bools\" for short, representing an abstract True or False,",
-        "8": "$(li)Entities, like myself, chickens, and minecarts;$(li)Influences, peculiar types of iota that seem to represent abstract ideas;$(li)Patterns themselves, used for crafting magic items and truly mind-boggling feats like $(italic)spells that cast other spells/$; and$(li)A list of several of the above, gathered into a single iota.",
-        "9": "Of course, there's no such thing as a free lunch. All spells, and certain other actions, require $(media)メディア/$ as payment.$(br2)The best I can figure, a _Hex is a little bit like a plan of action presented to Nature―― in this analogy, the $(media)メディア/$ is used to provide the arguments to back it up, so Nature will accept your plan and carry it out.",
-        "10": "That aside, it doesn't seem like anyone has done much research on exactly how $(italic)much/$ any particular piece of $(l:items/amethyst)$(item)amethyst/$ is valued. The best I can tell, an $(l:items/amethyst)$(item)Amethyst Shard/$ is worth about five pieces of $(l:items/amethyst)$(item)アメジストの粉/$, and a $(l:items/amethyst)$(item)Charged Amethyst Crystal/$ is worth about ten.$(br2)Strangely enough, it seems like no other form of $(l:items/amethyst)$(item)amethyst/$ is suitable to be used in the casting of a _Hex. I suspect that whole blocks or crystals are too solid to be easily unraveled into $(media)メディア/$.",
-        "11": "It's also worth noting that each action will consume the $(media)メディア/$ it needs immediately, rather than all at once when the Hex finishes. Also, an action will always consume entire items―― an action that only requires one $(l:items/amethyst)$(item)アメジストの粉/$'s worth of $(media)メディア/$ will consume an entire $(l:items/amethyst)$(item)Charged Amethyst Crystal/$, if that's all that's present in my inventory.$(br2)Thus, it might be a good idea to bring dust for spellcasting too―― waste not, want not...",
-        "12": "I should also be careful to make sure I actually have enough Amethyst in my inventory―― some old texts say that Nature is happy to use one's own mind as payment instead. They describe the feeling as awful but strangely euphoric, \"[...] an effervescent dissolution into light and energy...\" Perhaps that's why all the old practitioners of the art went mad. I can't imagine burning pieces of my mind for power is $(italic)healthy/$.",
-        "13": "Maybe something's changed, though. In my experiments, I've never managed to do it; if I run out of $(media)メディア/$, the spell will simply fail to cast, as if some barrier is blocking it from harming me. $(br2)It would be interesting to get to the bottom of that mystery, but for now I suppose it'll keep me safe.",
-        "14": "I have also found an amusing tidbit on why so many practitioners of magic in general seem to go mad, which I may like as some light and flavorful reading not canonical to my world.$(br2)$(italic)Content Warning: some body horror and suggestive elements./$",
+        "1": "_Hexをキャストするのは非常に難しい――この魔術が時の流れで失われたのも無理はない！慎重にノートを読み返さなければ。$(br2)_Hexを始めるために、$(l:items/staff)$(item)杖/$を持ちながら$(k:use)キーを押す――これで、六角形のドットグリッドが表示されます。その後、クリックしてドットからドットへドラッグし、グリッドの$(media)メディア/$内にパターンを描くことができます。パターンを完成させると、アクションが実行されます（詳細は後述します）。",
+        "2": "スペルをキャストするのに十分なパターンを描くと、グリッドはリセットされ、溜め込んだ$(media)メディア/$が放出されます。$(k:sneak)キーを押しながら$(l:items/staff)$(item)杖/$を使うことでグリッドをリセットできます。$(br2)では、パターンはどのように機能するのでしょうか？簡単に言うと：$(li)$(italic)パターン/$は$(italic)アクション/$を実行します。$(li)$(italic)アクション/$は$(l:casting/stack)$(italic)スタック/$を操作します。$(li)$(l:casting/stack)$(italic)スタック/$は$(italic)イオタ/$のリストです。$(li)$(italic)イオタ/$は単なる情報の単位です。",
+        "3": "まず、$(thing)パターン/$について。これらは基本的な要素――周囲の$(media)メディア/$を操作するためのものです。特定のパターンを描くと、$(thing)アクション/$が発生します。アクションこそが実際に魔法を$(italic)行使する/$ものです。どのパターンも$(media)メディア/$に特定の影響を与え、その影響がなにか有用な結果を生む場合、それをアクションと呼びます。$(br2)$(media)メディア/$は気まぐれな性質を持っています：無効なパターンを描いた場合、$(l:casting/influences)$(action)ゴミ/$がスタック上のどこかに現れることになります（詳細は後述）。",
+        "4.header": "例",
+        "4": "興味深いことに、パターンの$(italic)回転/$は全く影響を与えないようです。たとえば、これら2つのパターンはどちらも、$(l:patterns/basics#hexcasting:get_caster)$(action)マインズリフレクション/$というアクションを実行します。",
+        "5": "_Hexは、（有効な）アクションを順番に描くことでキャストされます。各アクションは次のようなことを行う場合があります：$(li)環境に関する情報を収集し、スタックの一番上に置く。$(li)収集した情報を操作する（例：2つの数値を加算する）。$(li)雷や爆発を召喚するなど、魔法的な効果を発生させる。（これらのアクションは”スペル”と呼ばれます。）$(p)_Hexのキャストを開始すると、新しく空のスタックが作成されます。アクションはそのスタックの一番上を操作します。",
+        "6": "例えば、$(l:patterns/basics#hexcasting:get_caster)$(action)マインズリフレクション/$は、$(italic)私/$、すなわちキャスターを表すイオタをスタックの一番上に追加します。$(l:patterns/basics#hexcasting:entity_pos/eye)$(action)コンパスピュリフィケーション/$は、スタックの一番上のイオタを受け取り、それがエンティティを表している場合、そのエンティティの位置を表すイオタに変換します。$(br2)したがって、これらのパターンを順番に描くと、スタックに自分の位置を表すイオタが作成されることになります。",
+        "7": "$(thing)イオタ/$は、自分自身や自分の位置などを表すことができますが、$(thing)アクション/$を使って操作できる他のタイプもいくつか存在します。以下はその一覧です：$(li)数値/Number（いくつかの伝説では、”double”と呼ばれることもあります）。$(li)ベクトル/Vector。位置、移動または方向を表す3つの数値の集合。$(li)ブール値/Boolean。略して”bool”。抽象的なTrueとFalseを表す。",
+        "8": "$(li)エンティティ/Entity。プレイヤーやニワトリ、トロッコのようなもの。$(li)影響、抽象的なアイデアを表すような特異な種類のイオタ。$(li)パターン自体、魔法のアイテムを作成したり、他のスペルを発動するような本当に驚異的な技を作り出すために衣装されます。$(li)上記のいくつかをまとめたリスト、1つのイオタに集めたもの。",
+        "9": "もちろん、タダで手に入るものなどありません。すべてのスペル、そして一部のその他のアクションは、対価として$(media)メディア/$を必要とします。$(br2)私が考えるに、_Hexは自然に提示される一種の行動計画のようなものです――この例えでは、$(media)メディア/$はそれを裏付ける論拠を提供するために使われ、自然がその計画を受け入れ、それを実行するようになります。",
+        "10": "それはさておき、$(l:items/amethyst)$(item)アメジスト/$の価値が具体的にどれほどなのかについて、あまり研究が進んでいないように思えます。私の見解では、$(l:items/amethyst)$(item)アメジストの欠片/$は約5個分の$(l:items/amethyst)$(item)アメジストの粉/$に相当し、$(l:items/amethyst)$(item)チャージアメジスト/$は約10個分に相当するようです。$(br2)奇妙なことに、他の形状の$(l:items/amethyst)$(item)アメジスト/$は_Hexのキャストに使用することはできないようです。私の推測では、全体の結晶やブロックは、簡単に$(media)メディア/$に分解できるほど柔軟ではないためではないでしょうか。",
+        "11": "また、各アクションが消費する$(media)メディア/$は、_Hexのキャストが完了する際ではなく、アクションが実行されるたびに即座に消費される点にも注目すべきです。また、アクションは常にアイテム全体を消費します――例えば、1つの$(l:items/amethyst)$(item)アメジストの粉/$分の$(media)メディア/$しか消費しないアクションでも、インベントリに$(l:items/amethyst)$(item)チャージアメジスト/$しかない場合、それが消費されます。$(br2)そのため、スペルのキャストには粉も持ち歩くのが良いかもしれません――無駄を避けるために...",
+        "12": "また、インベントリに十分なアメジストがあるかどうかを確認する必要があります――古い文献には、自然が代わりに術者自身の精神を対価として喜んで受け取ると書かれています。その感覚はひどく不快でありながら奇妙に高揚するものだと記されており、「...光とエネルギーへ泡立つように溶ける...」と表現されています。おそらく、かつての魔術師たちがみな正気を失った理由なのでしょう。自分の精神を力のために燃やすなんて、到底$(italic)健全/$だとは思えません。",
+        "13": "しかし、何かが変わったのかもしれません。私の実験では、そのような現象は発生しませんでした。$(media)メディア/$を使い果たした場合、スペルは単に失敗するだけで、まるで私に害を及ぼすことを阻む何らかの障壁が存在するかのようです。$(br2)その謎を究明するのは興味深いことですが、当面のところ、それが私を守ってくれていると考えるべきなのでしょう。",
+        "14": "また、一般的な魔術師がなぜ狂気に陥りがちなのかについての興味深い逸話を見つけました。それは私の世界における正史には属しませんが、軽い気晴らしとして読むのもいいかもしれません。$(br2)$(italic)コンテンツの警告：軽い身体ホラーおよび暗示的な要素を含みます。/$",
         "14.link_text": "Goblin Punch",
-        "15": "Finally, it seems spells have a maximum range of influence, about 32 blocks from my position. Trying to affect anything outside of that will cause the spell to fail.$(br2)Despite this, if I have a player's reference, I can affect them from anywhere. This only applies to affecting them directly, though; I cannot use this to affect the world around them if they're outside of my range.$(br)I ought to be careful when giving out a reference like that. While friendly _Hexcasters could use them to great effect and utility, I shudder to think of what someone malicious might do with this.",
+        "15": "どうやらスペルの影響範囲には上限があるようです。術師の位置から約32ブロックが限界で、その範囲を超えた対象に影響を及ぼそうとすると、スペルは失敗します。$(br2)それにもかかわらず、もしプレイヤーの参照情報を持っていれば、距離に関係なくそのプレイヤーに直接影響を与えることができます。ただしこの方法では、範囲外にいるプレイヤーの周囲の世界には影響を与えられません。$(br)こうした参照情報を渡す際には注意が必要です。有効的な_Hexcasterたちがこれを有効に活用してくれる場合もありますが、悪意を持つ者がこれを手にした場合に何をしでかすかを考えると、震えが止まりません。",
       },
       
       vectors: {
@@ -1494,8 +1494,8 @@
         "1": "Although the flexibility of casting _Hexes \"on the go\" with my $(l:items/staff)$(item)Staff/$ is quite helpful, it's a huge pain to have to wave it around repeatedly just to accomplish a basic task. If I could save a common spell for later reuse, it would simplify things a lot―― and allow me to share my _Hexes with friends, too.",
         "2": "To do this, I can craft one of three types of magic items: $(l:items/hexcasting)$(item)Cyphers/$, $(l:items/hexcasting)$(item)Trinkets/$, or $(l:items/hexcasting)$(item)Artifacts/$. All of them hold the patterns of a given _Hex inside, along with a small battery containing $(media)メディア/$.$(br2)Simply holding one and pressing $(thing)$(k:use)/$ will cast the patterns inside, as if the holder had cast them out of a staff, using its internal battery.",
         "3": "Each item has its own quirks:$(br2)$(l:items/hexcasting)$(item)Cyphers/$ are fragile, destroyed after their internal $(media)メディア/$ reserves are gone, and $(italic)cannot/$ be recharged;$(br2)$(l:items/hexcasting)$(item)Trinkets/$ can be cast as much as the holder likes, as long as there's enough $(media)メディア/$ left, but become useless afterwards until recharged;",
-        "4": "$(l:items/hexcasting)$(item)Artifacts/$ are the most powerful of all―― after their $(media)メディア/$ is depleted, they can use $(l:items/amethyst)$(item)Amethyst/$ from the holder's inventory to pay for the _Hex, just as I do when casting with a $(l:items/staff)$(item)Staff/$. Of course, this also means the spell might consume their mind if there's not enough $(l:items/amethyst)$(item)Amethyst/$.$(br2)Once I've made an empty magic item in a mundane crafting bench, I infuse the _Hex into it using (what else but) a spell appropriate to the item. $(l:patterns/spells/hexcasting)I've catalogued the patterns here./$",
-        "5": "Each infusion spell requires an entity and a list of patterns on the stack. The entity must be a $(media)メディア/$-holding item entity (i.e. $(l:items/amethyst)$(item)amethyst/$ crystals, dropped on the ground); the entity is consumed and forms the battery.$(br2)Usefully, it seems that the $(media)メディア/$ in the battery is not consumed in chunks as it is when casting with a $(l:items/staff)$(item)Staff/$―― rather, the $(media)メディア/$ \"melts down\" into one continuous pool. Thus, if I store a _Hex that only costs one $(l:items/amethyst)$(item)アメジストの粉/$'s worth of media, a $(l:items/amethyst)$(item)Charged Crystal/$ used as the battery will allow me to cast it 10 times.",
+        "4": "$(l:items/hexcasting)$(item)Artifacts/$ are the most powerful of all―― after their $(media)メディア/$ is depleted, they can use $(l:items/amethyst)$(item)アメジスト/$ from the holder's inventory to pay for the _Hex, just as I do when casting with a $(l:items/staff)$(item)Staff/$. Of course, this also means the spell might consume their mind if there's not enough $(l:items/amethyst)$(item)アメジスト/$.$(br2)Once I've made an empty magic item in a mundane crafting bench, I infuse the _Hex into it using (what else but) a spell appropriate to the item. $(l:patterns/spells/hexcasting)I've catalogued the patterns here./$",
+        "5": "Each infusion spell requires an entity and a list of patterns on the stack. The entity must be a $(media)メディア/$-holding item entity (i.e. $(l:items/amethyst)$(item)アメジスト/$ crystals, dropped on the ground); the entity is consumed and forms the battery.$(br2)Usefully, it seems that the $(media)メディア/$ in the battery is not consumed in chunks as it is when casting with a $(l:items/staff)$(item)Staff/$―― rather, the $(media)メディア/$ \"melts down\" into one continuous pool. Thus, if I store a _Hex that only costs one $(l:items/amethyst)$(item)アメジストの粉/$'s worth of media, a $(l:items/amethyst)$(item)Charged Crystal/$ used as the battery will allow me to cast it 10 times.",
         "crafting.desc": "$(italic)We have a saying in our field: \"Magic isn't\". It doesn't \"just work,\" it doesn't respond to your thoughts, you can't throw fireballs or create a roast dinner from thin air or turn a bunch of muggers into frogs and snails./$",
       },
       
@@ -1601,7 +1601,7 @@
         "1": "THEY ARE BITS OF MEDIA. How did I not see it sooner? They are ―― as I am a heap of flesh with a scrap, blessed with a scrap of thought, an Allay is a self-sustaining quarrel of media pinned to a scrap of flesh. It explains everything ―― their propensity for media, their response to music, I SEE NOW, HOW did the ones before NOT?",
         "2": "And given this it is only RIGHT I conquer their peculiar minds ―― their peculiar selves ―― that is all they are, a mind, a self, a coda. Something about their phase speaks to me. I can... I can compress $(media)メディア/$ with them, overlay two wends of thought in one space, physical and cognitive, all and once.$(br2)Somehow, the process produces $(media)メディア/$ of its own. How? Perhaps ―― perhaps MY work, the process of doing it ――",
         "3": "It matters not. I matter not. They matter not, all that matters is what it does. And this is it.$(br2)It must hurt so very much.$(br2)Ten $(l:items/amethyst)$(item)アメジストの粉/$ is the price to enact such a perverse ritual.",
-        "4": "The product is fragile. Breaking it shatters it into pieces, with $(thing)Fortune/$ increasing the yield... if I wish the block itself I need a silken touch.$(br2)The produced shards are worth thrice an $(l:items/amethyst)$(item)Charged Amethyst Crystal/$ apiece. The block itself is worth four of the shards.",
+        "4": "The product is fragile. Breaking it shatters it into pieces, with $(thing)Fortune/$ increasing the yield... if I wish the block itself I need a silken touch.$(br2)The produced shards are worth thrice an $(l:items/amethyst)$(item)チャージアメジスト/$ apiece. The block itself is worth four of the shards.",
         "5": "They are mercurial, they seem to twist and wink under my fingers, and by giving them a mentor in another form of $(media)メディア/$ they may be coerced into its shape, in an equivalent exchange of $(media)メディア/$.",
       },
       
@@ -1835,7 +1835,7 @@
       },
       
       readwrite: {
-        "1": "This section deals with the storage of $(thing)Iotas/$ in a more permanent medium. Nearly any iota can be stored to a suitable item, such as a $(l:items/focus)$(item)Focus/$ or $(l:items/spellbook)$(item)Spellbook/$, and read back later. Certain items, such as an $(l:items/abacus)$(item)Abacus/$, can only be read from.$(br2)Iotas are usually read and written from the other hand, but it is also possible to read and write with an item when it is sitting on the ground as an item entity, or when in an item frame.",
+        "1": "This section deals with the storage of $(thing)イオタ/$ in a more permanent medium. Nearly any iota can be stored to a suitable item, such as a $(l:items/focus)$(item)Focus/$ or $(l:items/spellbook)$(item)Spellbook/$, and read back later. Certain items, such as an $(l:items/abacus)$(item)Abacus/$, can only be read from.$(br2)Iotas are usually read and written from the other hand, but it is also possible to read and write with an item when it is sitting on the ground as an item entity, or when in an item frame.",
         "2": "There may be other entities I can interact with in this way. For example, a $(l:items/scroll)$(item)Scroll/$ hung on the wall can have its pattern read off of it.$(br2)However, it seems I am unable to save a reference to another player, only me. I suppose an entity reference is similar to the idea of a True Name; perhaps Nature is helping to keep our Names out of the hands of enemies. If I want a friend to have my Name I can make a $(l:items/focus)$(item)Focus/$ for them.",
         read: "Copy the iota stored in the item in my other hand and add it to the stack.",
         write: "Remove the top iota from the stack, and save it into the item in my other hand.",
@@ -1928,13 +1928,13 @@
       },
       
       hexcasting_spell: {
-        basics: "These three spells each create an $(l:items/hexcasting)$(thing)item that casts a _Hex./$$(br)They all require me to hold the empty item in my off-hand, and require two things: the list of patterns to be cast, and an entity representing a dropped stack of $(l:items/amethyst)$(item)Amethyst/$ to form the item's battery.$(br2)See $(l:items/hexcasting)this entry/$ for more information.",
+        basics: "These three spells each create an $(l:items/hexcasting)$(thing)item that casts a _Hex./$$(br)They all require me to hold the empty item in my off-hand, and require two things: the list of patterns to be cast, and an entity representing a dropped stack of $(l:items/amethyst)$(item)アメジスト/$ to form the item's battery.$(br2)See $(l:items/hexcasting)this entry/$ for more information.",
         "craft/cypher": "Costs about one $(l:items/amethyst)$(item)Charged Amethyst/$.",
         "craft/trinket": "Costs about five $(l:items/amethyst)$(item)Charged Amethysts/$.",
         "craft/artifact": "Costs about ten $(l:items/amethyst)$(item)Charged Amethysts/$.",
         
         "recharge.1": "Recharge a $(media)メディア/$-containing item in my other hand. Costs about one $(l:items/amethyst)$(item)Amethyst Shard/$.",
-        "recharge.2": "This spell is cast in a similar method to the crafting spells; an entity representing a dropped stack of $(l:items/amethyst)$(item)Amethyst/$ is provided, and recharges the $(media)メディア/$ battery of the item in my other hand.$(br2)This spell $(italic)cannot/$ recharge the item farther than its original battery size.",
+        "recharge.2": "This spell is cast in a similar method to the crafting spells; an entity representing a dropped stack of $(l:items/amethyst)$(item)アメジスト/$ is provided, and recharges the $(media)メディア/$ battery of the item in my other hand.$(br2)This spell $(italic)cannot/$ recharge the item farther than its original battery size.",
         
         "erase.1": "Clear a _Hex-containing item in my other hand. Costs about one $(l:items/amethyst)$(item)アメジストの粉/$.",
         "erase.2": "The spell will also void all the $(media)メディア/$ stored inside the item, releasing it back to Nature and returning the item to a perfectly clean slate. This way, I can re-use $(l:items/hexcasting)$(item)Trinkets/$ I have put an erroneous spell into, for example.$(br2)This also works to clear a $(l:items/focus)$(item)Focus/$ or $(l:items/spellbook)$(item)Spellbook/$ page, unsealing them in the process.",
@@ -2007,7 +2007,7 @@
       
       make_battery: {
         "1": "Infuse a bottle with $(media)メディア/$ to form a $(l:items/phials)$(item)Phial./$",
-        "2": "Similarly to the spells for $(l:patterns/spells/hexcasting)$(action)Crafting Casting Items/$, I must hold a $(item)Glass Bottle/$ in my other hand, and provide the spell with a dropped stack of $(l:items/amethyst)$(item)Amethyst/$. See $(l:items/phials)this page/$ for more information.$(br2)Costs about one $(l:items/amethyst)$(item)Charged Amethyst/$.",
+        "2": "Similarly to the spells for $(l:patterns/spells/hexcasting)$(action)Crafting Casting Items/$, I must hold a $(item)Glass Bottle/$ in my other hand, and provide the spell with a dropped stack of $(l:items/amethyst)$(item)アメジスト/$. See $(l:items/phials)this page/$ for more information.$(br2)Costs about one $(l:items/amethyst)$(item)Charged Amethyst/$.",
       },
       
       "brainsweep_spell.1": "I cannot make heads or tails of this spell... To be honest, I'm not sure I want to know what it does.",
