@@ -1266,53 +1266,53 @@
       
       casting: {
         overview: {
-          "1": "I believe it's good to always start off on the right foot. So, I've compiled the patterns for a _Hex that will cause a modest explosion at the position I am looking at. I believe examining the inner workings of this _Hex will be quite edifying.",
+          "1": "私は、良いスタートを切ることが常に良いことだと信じています。そこで、私の視線の先で小さな爆発を引き起こす_Hexのパターンをまとめてみました。この_Hexの内部構造を調べることは非常に啓発的であると考えています。",
         },
         
         grid: {
-          "1": "I will generally provide my patterns to Nature via my $(l:items/staff)$(item)Staff/$. \
-            Pressing $(thing)$(k:use)/$ with one in my hand will cause a hexagonal grid of dots to appear in front of me. \
-            I can then click, drag from dot to dot, and release to draw patterns.$(br2)\
-            Once I submit a pattern, it is executed (see the next chapter).",
-          "2": "Pressing $(thing)$(k:escape)/$ saves and closes the grid; when I next use my staff, all my patterns and iotas will still be there.$(br2)\
-            Should I wish to reset my casting state, I can do so by sneaking while opening the grid.",
+          "1": "通常、自分のパターンを自然に提供するために$(l:items/staff)$(item)杖/$を使用します。 \
+            手に杖を持ちながら$(thing)$(k:use)/$キーを押すと、眼の前に六角形のドットグリッドが表示されます。 \
+            その後、クリックしてドットからドットへドラッグし、離すことでパターンを描くことができます。$(br2)\
+            一度パターンを描くと、すぐに実行されます（詳細は次の章を参照してください）。",
+          "2": "$(thing)$(k:escape)/$キーを押すと、グリッドが保存されて閉じられます。次に杖を使用するときには、すべてのパターンとiotaがそのまま残っています。$(br2)\
+            キャスティング状態をリセットしたい場合は、スニークしながらグリッドを開くことでリセットできます。",
         },
         "patterns&actions": {
-          "1": "$(thing)Patterns/$ are paths traced through the grid of $(media)メディア/$. I believe the sixfold symmetry of patterns is what gives my art its name.$(br2)\
-            $(thing)Actions/$, meanwhile, are what patterns $(italic)do/$.",
-          "2": "The difference is similar to the difference between $(italic)words/$ and $(italic)meanings/$. \
-            Any jumble of letters forms a word, but most of them (like \"xnopyt\") don't mean anything. \
-            Similarly, any squiggle yanked through the $(media)メディア/$ is technically a pattern, but most of them won't do anything.",
-          "3": "Actions are somewhat like commands to the grand systems rules that govern the universe (which I have seen some texts personify as \"Nature.\"). \
-            They tend to do one of a few things:\
-              $(li)Gather some information about the world, such as finding the position of a entity.\
-              $(li)Manipulate the info gathered, like finding the distance between two positions.\
-              $(li)Perform some magical effect on the world, like summoning lightning or an explosion.$(br)\
-            These last kinds of actions are called \"spells.\", and are generally what attract people to the art.",
-          "4": "A _Hex, then, is a sequence of valid patterns presented to Nature in sequence. \
-            Nature interprets each of these patterns one-by-one and, if it understands, changes the world to my whims. \
-            (Or, what it thinks my whims are.)",
-          "5": "Although some actions can be performed easily, some require a payment in the form of coalesced $(media)メディア/$. \
-            I believe the concentrated mental energy is used as a sort of argument to Nature, convincing it that it should indeed do as I ask. \
-            Most spells require this kind of payment, but a few non-spell actions do too.$(br2)\
-            I've recorded the costs, if any, of each action on their respective pages.",
+          "1": "$(thing)パターン/$とは、$(media)メディア/$のグリッド上に描かれる軌跡のことです。パターンの六重対称性こそが、私の魔術にその名を与えた理由だと考えています。$(br2)\
+            一方で、$(thing)アクション/$は、パターンが$(italic)何をするか/$を表しています。",
+          "2": "この違いは、$(italic)言葉/$と$(italic)意味/$の違いに似ています。 \
+            どんな文字の寄せ集めでも言葉を形成しますが、その多く（たとえば「あふぼぺゆ」）のようなものはなんの意味も持ちません。 \
+            同様に、どんな線でも$(media)メディア/$上に引けば技術的にはパターンになりますが、そのほとんどはなんの効果もありません。",
+          "3": "アクションは、宇宙を支配する大いなるシステムの法則への命令のようなものです（これを”自然”と表現している文献も見かけました）。 \
+            アクションは通常、以下のようなことを行います：\
+              $(li)世界に関する情報を集めること。例えば、あるエンティティの位置を探し出すこと。\
+              $(li)集めた情報を操作すること。例えば、２つの位置の間の距離を求めること。\
+              $(li)世界に対して魔法的な効果を発動すること。例えば、雷や爆発を召喚すること。$(br)\
+            これらの最後の種類のアクションは”スペル”と呼ばれ、人々がこの魔術に惹きつけられる要素です。",
+          "4": "_Hexはつまり、正しいパターンの連続を自然に対して順番に示すことです。 \
+            自然はこれらのパターンを一つずつ解釈し、それが理解できれば、私の気まぐれに従って世界を変化させます。 \
+            （あるいは、自然が私の気まぐれだと思うことに従って。）",
+          "5": "いくつかのアクションは簡単に実行できますが、いくつかは集約された$(media)メディア/$の形で対価を必要とします。 \
+            私は、この集中的な精神エネルギーが自然への取引のような役割を果たし、私が頼んだことを実行するように自然を納得させるのだと考えています。 \
+            ほとんどのスペルはこのような対価を必要としますが、いくつかの非スペルアクションも同様です。$(br2)\
+            私は各アクションのコスト（もしあれば）を、それぞれのページに記録しています。",
         },
         iotas: {
-          "1": "The \"nouns\" in Nature's language are called $(thing)iotas/$. \
-            At its most basic level, Hexcasting is the art of manipulating iotas.$(br2)\
-            Iotas come in many different types:\
-              $(li)Numbers (which some legends called \"doubles\").\
-              $(li)Vectors, a collection of three numbers representing a position, movement, or direction.\
-              $(li)Booleans or \"bools\" for short, representing an abstract True or False.\
-              $(li)Entities, like myself, chickens, and minecarts.",
-          "2": "$(li)Influences, peculiar types of iota that seem to represent abstract ideas.\
-              $(li)Patterns themselves, used for crafting magic items and truly mind-boggling feats like $(italic)spells that cast other spells/$.\
-              $(li)A list of several of the above, gathered into a single iota.",
-          "3": "Generally, I provide iotas to actions. \
-            For example, take $(l:patterns/spells/basic#hexcasting:explode)$(action)Explosion/$. \
-            This spell requires a number iota, to indicate the strength, and a vector iota, to indicate the location.$(br2)\
-            Or, take $(l:patterns/basic#hexcasting:get_pos)$(action)Compass Purification/$. \
-            This takes an entity iota and transforms it into a vector iota, representing the position of that entity.",
+          "1": "自然言語における”名詞”は$(thing)イオタ/$と呼ばれます。 \
+            Hexcastingの最も基本的なレベルは、イオタを操作する魔術です。$(br2)\
+            イオタにはさまざまな種類があります：\
+              $(li)数字（いくつかの伝説では、”double”と呼ばれることもあります）。\
+              $(li)ベクトル。位置、移動または方向を表す3つの数字の集合。\
+              $(li)ブール値。略して”bool”。抽象的なTrueとFalseを表す。\
+              $(li)エンティティ。プレイヤーやニワトリ、トロッコのようなもの。",
+          "2": "$(li)影響、抽象的なアイデアを表すような特異な種類のイオタ。\
+              $(li)パターン自体、魔法のアイテムを作成したり、他のスペルを発動するような本当に驚異的な技を作り出すために衣装されます。\
+              $(li)上記のいくつかをまとめたリスト、1つのイオタに集めたもの。",
+          "3": "一般的に、私はアクションにイオタを提供します。 \
+            例えば、$(l:patterns/spells/basic#hexcasting:explode)$(action)エクスプロージョン/$。 \
+            このスペルは、強さを示すための数字のイオタと、位置を示すためのベクトルのイオタを必要とします。$(br2)\
+            または、$(l:patterns/basic#hexcasting:get_pos)$(action)コンパスピュリフィケーション/$。 \
+            これはエンティティのイオタを受け取り、それをベクトルのイオタに変換して、そのエンティティの位置を表します。",
         },
       },
       
